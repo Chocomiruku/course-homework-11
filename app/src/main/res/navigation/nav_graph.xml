@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/positionsFragment">
+
+    <fragment
+        android:id="@+id/positionsFragment"
+        android:name="com.chocomiruku.homework11.positions.PositionsFragment"
+        android:label="Должности"
+        tools:layout="@layout/fragment_positions">
+        <action
+            android:id="@+id/action_positionsFragment_to_employeesFragment"
+            app:destination="@id/employeesFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/employeesFragment"
+        android:name="com.chocomiruku.homework11.employees.EmployeesFragment"
+        android:label="Сотрудники"
+        tools:layout="@layout/fragment_employees" />
+</navigation>

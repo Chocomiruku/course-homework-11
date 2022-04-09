@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">Homework11</string>
+    <string name="app_name">Homework 11: Data storage</string>
+    <string name="position">Должность</string>
+    <string name="full_name_label">ФИО:</string>
+    <string name="full_name">ФИО</string>
+    <string name="age_label">Возраст:</string>
+    <string name="age">Возраст</string>
+    <string name="experience_label">Стаж:</string>
+    <string name="experience">Стаж</string>
+    <string name="employee_icon_content_description">Employee icon</string>
+    <string name="go_to_employees_content_description">Go to Employees</string>
 </resources>
