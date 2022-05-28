@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="label_list_position">
+        <item name="fontFamily">@font/proximanova_bold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/gray_700</item>
+    </style>
+
+    <style name="label_list_employee_info">
+        <item name="fontFamily">@font/proximanova_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/gray_700</item>
+    </style>
+
+    <style name="label_list_default">
+        <item name="fontFamily">@font/proximanova_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/gray_700</item>
+    </style>
+
+    <style name="label_status">
+        <item name="fontFamily">@font/proximanova_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/gray_400</item>
+    </style>
+
+    <style name="rounded_corners_img_view" parent="">
+        <item name="cornerSize">10%</item>
+    </style>
+</resources>
